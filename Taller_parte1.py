@@ -1,4 +1,3 @@
-
 import time # librería para medir el tiempo de ejecución
 import numpy as np # libreria para trabajar con arrays
 
