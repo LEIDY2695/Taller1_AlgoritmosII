@@ -58,6 +58,7 @@ for nota in calificaciones:
 # Mostrar el informe final
 print("\nRESULTADOS DEL PROCESO")
 # Mostrar los resultados iniciales
+# round es para redondear el resultado a 2 decimales
 print("Suma inicial:", round(suma, 2))
 print("Promedio inicial:", round(promedio_inicial, 2))
 print("Nota inicial más alta:", nota_mas_alta)
@@ -66,7 +67,7 @@ print("Nota inicial más baja:", nota_mas_baja)
 print("\nCALIFICACIONES MODIFICADAS: ", calificaciones_modificadas)
 
 print("\nRESUMEN FINAL")
-print("Suma final:", round(suma_final, 2))
+print("Suma final:", round(suma_final, 2)) 
 print("Promedio final:", round(promedio_final, 2))
 print("Estudiantes aprobados:", aprobados)
 print("Estudiantes reprobados:", reprobados)
